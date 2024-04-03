@@ -1,0 +1,100 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1.8em !important;
+}
+
+h3 {
+    font-size: 1.5em !important;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #292929;
+}
+
+main {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    border: 0;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 10px 10px 10px;
+}
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+input {
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+}
+
+textarea {
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    resize: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #292929;
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.forms {
+    display: flex;
+}
+
+.data {
+    text-align: start;
+    width: 100%;
+    margin: 10px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 15px 0;
+}
+
+.buttons {
+    display: flex;
+}
+
+#info {
+    display: none;
+}
+
+#info-button {
+    display: none;
+}
