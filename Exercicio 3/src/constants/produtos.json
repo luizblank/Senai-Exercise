@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "status": true,
+    "Categoria": "Cosmético",
+    "name": "Perfume",
+    "desc": "Miguel Rousseouf",
+    "value": "100.00",
+    "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg"
+  },
+  {
+    "id": 2,
+    "status": true,
+    "Categoria": "Acessório",
+    "name": "Colar",
+    "desc": "Jand Karno em perolas",
+    "value": "2200.00",
+    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
+  },
+  {
+    "id": 3,
+    "status": false,
+    "Categoria": "Brinquedo",
+    "name": "Pelúcia Lucas Neto",
+    "desc": "A melhor pelucia do mundo",
+    "value": "2.00",
+    "image": "https://images.tcdn.com.br/img/img_prod/1017123/luccas_neto_pelucia_de_47_cm_1177_1_337666a6f73f1a5ba567746023950160.jpg"
+  },
+  {
+    "id": 4,
+    "status": false,
+    "Categoria": "Controle",
+    "name": "Controle Xbox",
+    "desc": "Generico",
+    "value": "56.00",
+    "image": "https://down-br.img.susercontent.com/file/174393030b59241c487b2cb8d732a0c1"
+  },
+  {
+    "id": 5,
+    "status": true,
+    "Categoria": "Pessoa",
+    "name": "Mc Bin Laden",
+    "desc": "O próprio",
+    "value": "1200.00",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC0ufejNm0A_abxrFk1WBBRypof7Kh1v69Ww25GJetYQNtxOXFnjW0cA7e0b3uOeQwmoU&usqp=CAU"
+  }
+]
