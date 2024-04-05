@@ -15,7 +15,7 @@ function App() {
   const [data, setData] = useState([])
   const [page, setPage] = useState("")
   const [character, setCharacter] = useState("")
-
+  
   useEffect(() => {
     api.get(`/character/?page=${page}`).then((response) => {
       if (!response.data.results) {
@@ -25,8 +25,8 @@ function App() {
       setData(response.data.results)
     }).catch((error) => {
       if (error.response.status === 404) {
-        alert('Error: This page could not be found')
         setPage("")
+        alert('Error: This page could not be found')
       }
       console.error(error)
     })
@@ -45,8 +45,8 @@ function App() {
       setData(response.data.results)
     }).catch((error) => {
       if (error.response.status === 404) {
-        alert('Error: This character could not be found')
         setCharacter("")
+        alert('Error: This character could not be found')
       }
       console.error(error)
     })
